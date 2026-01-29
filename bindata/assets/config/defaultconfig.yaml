@@ -155,6 +155,8 @@ apiServerArguments:
   # need to enable alpha APIs for the priority and fairness feature
   service-account-lookup:
     - "true"
+  service-account-max-token-expiration:
+    - "333s"
   service-node-port-range:
     - 30000-32767
   shutdown-delay-duration:
